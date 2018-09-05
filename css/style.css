@@ -1,0 +1,196 @@
+body {
+	
+ background-image:url("../img/pixel.jpg");
+
+ background-repeat: no-repeat;
+ background-size: 100%;
+
+	
+   
+}
+
+
+
+
+p {
+
+
+	text-align: center;
+	font-size: 30px;
+	font-weight: 100;
+	color: white;
+		top: 80%;
+		z-index: 3;
+		
+}
+
+@font-face {
+   font-family: myFont;
+   src: url(../TopSpeedTypographyItalic.ttf);
+}
+
+* {
+   font-family: myFont;
+
+}
+
+
+
+
+.selfie {
+	position: fixed;
+	
+	float: left;
+		top: 10%;
+		left: 12%;
+		z-index: 1;
+		
+
+	width: 25%;
+	height: auto;
+
+}
+
+h1 {
+
+	font-size: 60px;
+	font-weight: 100;
+	color: white;
+		z-index: 2;
+
+		    position: fixed;
+		    float: left;
+    left: 14%;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.notag {
+	 position: fixed;
+    float: right;
+    left: 42%;
+    top: 50%;
+    z-index: 3;
+
+    width: 20%;
+    height: auto;
+
+
+}
+
+.yestag {
+	 position: fixed;
+  float: right;
+    left: 67%;
+   top: 50%;
+    z-index: 3;
+
+    width: 20%;
+    height: auto;
+
+
+}
+
+.tag {
+	 
+
+    position: absolute;
+    display: inline-block;
+    left: 40%;
+    top: 70%;
+    z-index: 3;
+
+    width: 25%;
+    height: auto;
+
+
+}
+
+
+.robot { position: absolute;
+		top: 4%;
+		left: 20%;
+		z-index: 1;
+
+	width: 20%;
+	height: auto;
+}
+
+.robottext {
+    display: block;
+    margin-left: 18%;
+    margin-right: auto;
+    
+    top: 50%;
+    width: 75%;
+    height: auto;
+    z-index: 2;
+}
+
+.miquela {
+	 
+
+position: absolute;
+    left: 0%;
+    bottom: 0%;
+  
+
+    width: 55%;
+    height: auto;
+}
+
+h2 {
+font-size: 60px;
+	font-weight: 100;
+	color: white;
+		z-index: 2;
+
+		    position: fixed;
+		    float: left;
+
+    left: 10%;
+    bottom: 80%;
+    width: 100%;
+    height: auto;
+    
+
+}
+
+p {
+font-family: "Helvetica";
+
+text-align:right;
+	font-size: 15px;
+	padding-right: 3%;
+
+	color: white;
+
+			    position: absolute;
+		    float: right;
+
+    left: 40%;
+    top: 30%;
+   
+
+}
+
+h3 {
+text-align:right;
+	font-size: 39px;
+	padding-right: 3%;
+
+	color: white;
+
+			    position: absolute;
+		    float: right;
+
+    left: 60%;
+    top: 77%;
+    
+
+}
+
+
+
