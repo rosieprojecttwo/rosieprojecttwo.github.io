@@ -5,6 +5,7 @@ body {
  background-repeat: no-repeat;
  background-size: 100%;
 
+							position: relative;
 	
    
 }
@@ -19,7 +20,7 @@ p {
 	font-size: 30px;
 	font-weight: 100;
 	color: white;
-		top: 80%;
+		bottom: 20px;
 		z-index: 3;
 		
 }
@@ -100,7 +101,7 @@ h1 {
     display: inline-block;
     left: 40%;
     top: 70%;
-    z-index: 3;
+    z-index: 1;
 
     width: 25%;
     height: auto;
@@ -112,7 +113,7 @@ h1 {
 .robot { position: absolute;
 		top: 4%;
 		left: 20%;
-		z-index: 1;
+		z-index: 0;
 
 	width: 20%;
 	height: auto;
@@ -132,10 +133,10 @@ h1 {
 .miquela {
 	 
 
-position: absolute;
-    left: 0%;
+position: fixed;
+    left: 5%;
     bottom: 0%;
-  
+ 
 
     width: 55%;
     height: auto;
@@ -159,11 +160,12 @@ font-size: 60px;
 }
 
 p {
-font-family: "Helvetica";
+
 
 text-align:right;
 	font-size: 15px;
 	padding-right: 3%;
+
 
 	color: white;
 
@@ -189,8 +191,157 @@ text-align:right;
     left: 60%;
     top: 77%;
     
+}
+
+
+
+h5 {
+
+
+	text-align: center;
+	font-size: 30px;
+	font-weight: 100;
+	color: black;
+		z-index: 5;
+		
+}
+
+.close {
+    
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 14px 20px;
+    left: 50%;
+    top: 90%;
+    cursor: pointer;
+    text-align: center;
+    width: 80%;
+   position: fixed;
+   transform: translate(-50%, -50%);
+   z-index: 10;
+
+    opacity: 0.9;
+}
+
+
+button {
+    background-color: pink;
+    color: white;
+    padding: 14px 20px;
+    left: 50%;
+    top: 70%;
+    border: solid;
+    cursor: pointer;
+    width: 95%;
+   position: fixed;
+   transform: translate(-50%, -50%);
+
+    opacity: 0.9;
+    z-index: 10;
+}
+
+button:hover {
+    opacity:1;
+}
+
+.w3-input {
+	font-family: "Helvetica";
+	
+ background-color: white;
+    color: black;
+    padding: 14px 20px;
+    left: 50%;
+    top: 60%;
+    text-align: center;
+font-size: 10px;
+    width: 87.5%;
+   position: fixed;
+   transform: translate(-50%, -50%);
+
+    opacity: 0.9;
+    z-index: 10;
 
 }
+
+
+.dc1 {
+	
+	color: black;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+
+
+    
+}
+
+.w3-section p {
+
+	    color: black;
+    padding: 14px 20px;
+    left: 50%;
+    top: 20%;
+    text-align: center;
+font-size: 40px;
+    width: 87.5%;
+   position: fixed;
+   transform: translate(-50%, -50%);
+   z-index: 10;
+
+
+}
+
+.w3-button {
+
+	font-size: 30px;
+
+}
+ 
+
+h4 {
+
+	font-family: "Helvetica";
+
+	  color: black;
+    padding: 14px 20px;
+    left: 50%;
+    top: 80%;
+    text-align: center;
+font-size: 15px;
+    width: 87.5%;
+   position: fixed;
+   transform: translate(-50%, -50%);
+   z-index: 10;
+}
+
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .signupbtn {
+       width: 100%;
+       z-index: 10;
+    }
+}
+</style>
+
+</html>
+
 
 
 
